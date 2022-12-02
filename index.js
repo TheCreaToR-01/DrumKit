@@ -13,6 +13,7 @@ for ( let i = 0 ; i < document.querySelectorAll(".drum").length; i++){
 
 document.addEventListener("keypress", function(event){
     soundMaking(event.key);
+    buttonAnimation(event.key);
 });
 
 function soundMaking(key){
