@@ -55,3 +55,11 @@ function soundMaking(key){
             console.log(key);
     }
 }
+
+
+// Button Animation while Playing
+
+function buttonAnimation(currentKey){
+    let activeButton = document.querySelector("." + currentKey);
+    activeButton.classList.toggle("pressed");
+}
